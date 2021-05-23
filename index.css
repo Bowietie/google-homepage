@@ -1,17 +1,40 @@
-#build{
+.build{
     display: block;
     width: 100%;
     flex-direction: column;
-}
-#top{
     align-items: center;
+    font-size: 14px;
 }
-#top-right{
+.top{
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+
+
+}
+a.top-right{
+    display:block;
+    text-align:center;
+    margin: auto;
+    padding: 50;
+    justify-self: right;
+}
+a.top-left{
+    display:block;
+    text-align:center;
+    margin: auto;
     display: flex;
 }
-#top-left{
+.top-far-left{
     display: flex;
 }
-#top-far-left{
-    display: flex;
+.logo{
+    display:block;
+    text-align:center;
+    margin: auto;
+}
+.search-form{
+    display:block;
+    text-align:center;
+    margin: auto;
 }
