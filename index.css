@@ -1,0 +1,17 @@
+#build{
+    display: block;
+    width: 100%;
+    flex-direction: column;
+}
+#top{
+    align-items: center;
+}
+#top-right{
+    display: flex;
+}
+#top-left{
+    display: flex;
+}
+#top-far-left{
+    display: flex;
+}
