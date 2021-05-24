@@ -5,21 +5,28 @@
     align-items: center;
     font-size: 14px;
 }
-.top{
-    align-items: center;
-    padding: 6px;
-    height: 60px;
-
+.ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.li{
+    display: inline;
 
 }
-a.top-right{
+.a{
+    float: left;
+    display: block;
+}
+.top-right{
     display:block;
     text-align:center;
     margin: auto;
     padding: 50;
     justify-self: right;
 }
-a.top-left{
+.top-left{
     display:block;
     text-align:center;
     margin: auto;
@@ -34,7 +41,20 @@ a.top-left{
     margin: auto;
 }
 .search-form{
-    display:block;
-    text-align:center;
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+
+    width: auto;
+    
+}
+.search-buttons{
+    display: block;
+    text-align: center;
     margin: auto;
 }
