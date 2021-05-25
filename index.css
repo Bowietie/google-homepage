@@ -15,7 +15,13 @@ li{
     padding: 10px;
 
 }
+li.nav-c{
+    display: block;
+    float: right;
+    padding: auto;
+}
 li.nav-b{
+    display: block;
     float: right;
     padding: auto;
 }
@@ -24,11 +30,6 @@ li.nav-a{
     float: left;
     padding: auto;
 }
-li.nav-c{
-    float: right;
-    padding: auto;
-}
-
 .logo{
     display:block;
     text-align:center;
@@ -59,3 +60,33 @@ li.nav-c{
     margin-top: 30px;
 
 }
+.bottom-navbar {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+.bottom-left {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .bottom-center {
+    text-align: center;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .bottom-right {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
