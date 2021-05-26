@@ -1,5 +1,5 @@
 .build{
-    display: block;
+    display: flex;
     width: 100%;
     flex-direction: column;
     align-items: center;
@@ -16,12 +16,12 @@ li{
 
 }
 li.nav-c{
-    display: block;
+
     float: right;
     padding: auto;
 }
 li.nav-b{
-    display: block;
+    display: flexbox;
     float: right;
     padding: auto;
 }
@@ -61,32 +61,23 @@ li.nav-a{
 
 }
 .bottom-navbar {
-    overflow: hidden;
+    display: block;
     position: fixed;
     bottom: 0;
     width: 100%;
-  }
+}
 .bottom-left {
     float: left;
-    display: block;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
-  }
-  .bottom-center {
-    text-align: center;
-    display: block;
-    text-align: center;
+}
+.bottom-center {
+    
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
-  }
-  .bottom-right {
+}
+.bottom-right {
     float: right;
-    display: block;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
-  }
+}
