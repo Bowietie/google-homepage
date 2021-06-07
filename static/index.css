@@ -17,7 +17,6 @@ ul{
     display: flex;
     flex-direction: row;
 
-
 }
 .nav-c{
     display: flex;
@@ -34,12 +33,13 @@ ul{
 .logo{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 45px;
 
 }
 .logo-pic{
     display: flex;
     justify-content: center;
+    padding-bottom: 20px;
 
 }
 .forms{
@@ -50,20 +50,29 @@ ul{
 }
 .search-form{
     border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
     width: auto;
     max-width: 540px;
     width: 535px;
     height: 44px;
+
+    margin-bottom: 10px;
+
     
 }
 .search-buttons{
     display: flex;
     justify-content: center;
     border: 1px black;
+    
 }
 .input-button{
-    padding: 10px 15px;
-    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    padding: 10px;
+    margin-left: 30px;
 }
 .bottom-navbar{
     display: flex;
