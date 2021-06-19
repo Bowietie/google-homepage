@@ -24,7 +24,6 @@ ul{
     justify-content: space-between;
     list-style: none;
     height: 50px;
-    background-color: aqua;
     overflow: hidden;
 }
 li{
@@ -42,11 +41,14 @@ li{
     
 }
 .nav-c-sigin{
-    background-color: #1a73e8;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background: #1a73e8;
+    border: 1px solid transparent;
+    padding: 9px 23px;
+    border-radius: 4px;
     
 }
 .logo{
