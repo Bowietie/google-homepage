@@ -25,6 +25,7 @@ ul{
     list-style: none;
     height: 50px;
     overflow: hidden;
+    margin: 5px;
 }
 li{
     align-items: center;
@@ -49,6 +50,8 @@ li{
     border: 1px solid transparent;
     padding: 9px 23px;
     border-radius: 4px;
+    color: #f2f2f2;
+    margin-left: 10px;
     
 }
 .logo{
